@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import dataRouter from "./routers/dataRouter.js";
 import connectDB from "./config/dbConnection.js";
 import cors from "cors";
- 
+
 dotenv.config();
 const app = express();
 app.use(cors());
