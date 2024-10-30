@@ -25,3 +25,17 @@ export const setDataFunction = async (req, res) => {
     data: req.body,
   });
 };
+
+export const getProductFunction = async (req, res) => {
+  try {
+    const response = await Store.find({ _id: req.body.id });
+    console.log(response);
+    res.json({
+      success: true,
+      message: "product data fetched successfully",
+      data: response,
+    });
+  } catch (e) {
+    console.log(e);
+  }
+};

@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Banner from "./Components/Banner/Banner";
 import Add from "./Components/Add/Add.jsx";
 import Product from "./Components/Product/Product.jsx";
+import ProductDescription from "./Components/ProductDescription/ProductDescription.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/add/product/new",
         element: <Add />,
+      },
+      {
+        path: "/product/:productId",
+        element: <ProductDescription />,
       },
     ],
   },
