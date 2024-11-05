@@ -12,7 +12,7 @@ const Header = () => {
           />
         </Link>
         <div className="header-2">
-          <i class="fa-solid fa-location-dot"></i>
+          <i className="fa-solid fa-location-dot"></i>
           <div className="header-2-1">
             <p>Delivery to Bangalore</p>
             <p>update location</p>
@@ -24,7 +24,7 @@ const Header = () => {
           </div>
           <input type="text" placeholder="Search Amazon.in" />
           <div className="header-3-2">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i className="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
         <div className="header-4">
@@ -37,7 +37,7 @@ const Header = () => {
           <i className="fa-solid fa-plus"></i>
         </Link>
         <div className="header-6">
-          <i class="fa-solid fa-cart-shopping"></i>
+          <i className="fa-solid fa-cart-shopping"></i>
         </div>
       </div>
       <div className="header-temp"></div>

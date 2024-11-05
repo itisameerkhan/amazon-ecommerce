@@ -21,7 +21,7 @@ const Product = () => {
   return (
     <div className="product">
       {data.map((data) => (
-        <Link to={`/product/${data._id}`}>
+        <Link to={`/product/${data._id}`} key={data._id}>
           <Card data={data} />
         </Link>
       ))}
