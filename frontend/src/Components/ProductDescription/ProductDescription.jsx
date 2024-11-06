@@ -24,7 +24,7 @@ const ProductDescription = () => {
   if (!data) return <h2>loading</h2>;
 
   return (
-    <div className="product-desc">
+    <div className="product-desc"> 
       <div className="product-desc-1">
         <img src={data.imageURL} alt="img" />
       </div>
