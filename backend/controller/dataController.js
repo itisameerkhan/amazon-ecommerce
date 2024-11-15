@@ -1,7 +1,7 @@
-import Store from "../model/dataModel.js";
+import Store from "../model/dataModel.js"; 
 
 export const getDataFunction = async (req, res) => {
-  try {
+  try { 
     const response = await Store.find();
 
     res.json({
